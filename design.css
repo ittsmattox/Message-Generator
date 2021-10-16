@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT',sans-serif;
+    background-color: #e0e0e0;
+
+}
+
+.logo {
+    height: 30px;
+    margin: 15px 30px;
+
+}
