@@ -57,7 +57,7 @@ section {
     box-shadow: 6px 6px 5px grey;
 }
 
-.hero {
+#hero {
 width: 100%;
 display: flex;
 justify-content: space-between;

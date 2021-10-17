@@ -1,14 +1,18 @@
-const projButton = document.getElementById('proj-button')
-
-projButton.addEventListener('click', alertMe)
+console.log(document.getElementById('hero'));
+const git = document.getElementById('git')
 
 function alertMe() {
-    console.log("Clicked!!!")
+   console.log("clicked!!!") 
 }
 
+git.addEventListener('click', alertMe)
 
-function test() {
-    console.log('Does this work?')
+// code above logs "clicked" when selecting the Github url link
+
+const proj = document.getElementById('proj')
+
+function alertMe() {
+   console.log("User is accessing projects landing page") 
 }
 
-test();
+proj.addEventListener('click', alertMe)
